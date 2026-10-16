@@ -1,0 +1,10 @@
+{
+  "name": "dmi-website-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp -R index.html styles.css app.js server.js package.json config.js public dist/"
+  }
+}
