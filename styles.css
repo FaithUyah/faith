@@ -35,6 +35,30 @@
 	top:-30vh;
 }
 
+@media (max-width:768px){
+	.hero-content .hero-kicker
+	{
+		top:-50vw;
+	}
+	
+	.hero-content h1{
+		-webkit-text-stroke-width:1px;
+	}
+}
+
+
+@media (max-width:600px){
+	.hero-content .hero-kicker
+	{
+		top:-70vw;
+	}
+	
+	.hero h1{
+		position:relative;
+		top:40px;
+	}
+}
+
 .promo{height:31px;background:var(--ink);color:#fff;display:flex;align-items:center;overflow:hidden;white-space:nowrap;font-size:10px;letter-spacing:.11em;text-transform:uppercase}.promo-track{display:flex;gap:28px;min-width:max-content;animation:marquee 28s linear infinite}.promo-track span{display:inline-flex;align-items:center;gap:28px}.promo-track b{color:var(--lime);font-weight:400;font-size:14px}@keyframes marquee{to{transform:translateX(-50%)}}
 .site-header{height:84px;background:rgba(246,246,242,.94);border-bottom:1px solid rgba(17,17,17,.12);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 5vw;position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}.logo{width:78px;display:block}.logo img{display:block;width:100%;height:auto}.socials{display:flex;gap:9px;justify-self:center}.socials a{width:31px;height:31px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-size:11px;text-transform:uppercase}.menu-toggle{justify-self:end;display:flex;align-items:center;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.1em}.menu-icon{width:32px;display:grid;gap:5px}.menu-icon i{display:block;height:1px;background:currentColor;transition:.3s}.menu-icon i:last-child{width:65%;justify-self:end}.menu-toggle[aria-expanded=true] .menu-icon i:first-child{transform:translateY(3px) rotate(45deg)}.menu-toggle[aria-expanded=true] .menu-icon i:last-child{width:100%;transform:translateY(-3px) rotate(-45deg)}
 .menu-panel{position:fixed;inset:115px 0 0;background:var(--ink);color:var(--white);z-index:19;display:none;padding:7vw 5vw}.menu-panel.open{display:block}.menu-panel nav{display:grid;gap:10px}.menu-panel a{font-family:var(--display);text-transform:uppercase;font-size:clamp(44px,8vw,120px);line-height:.9;letter-spacing:-.04em;transition:color .2s}.menu-panel a:hover{color:var(--lime)}.menu-meta{margin-top:52px;display:flex;justify-content:space-between;max-width:700px;color:#aaa;font-size:11px;text-transform:uppercase;letter-spacing:.1em}
