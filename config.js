@@ -6,13 +6,13 @@
 */
 window.DMI_CONFIG = {
   images: {
-    logo: "assets/faith/faith-logo.png",
+    logo: "logo.png",
     logoWhite: "assets/faith/faith-logo.png",
     hero: "assets/faith/faith-portrait.jpg",
     founder: "assets/faith/faith-seated.jpg",
     about: ["assets/faith/faith-portrait.jpg", "assets/faith/ritual-everyday.jpeg", "assets/faith/website-refresh.png", "assets/faith/notes-for-tomorrow.jpg", "assets/faith/skincare-editorial.jpg"],
     categories: ["assets/faith/faith-portrait.jpg", "assets/faith/ritual-everyday.jpeg", "assets/faith/website-refresh.png", "assets/faith/notes-for-tomorrow.jpg"],
-    recent: ["assets/faith/faith-portrait.jpg", "assets/faith/ritual-everyday.jpeg", "assets/faith/website-refresh.png", "assets/faith/notes-for-tomorrow.jpg", "assets/faith/skincare-editorial.jpg", "assets/faith/faith-seated.jpg"],
+    recent: ["assets/faith/faith-portrait.jpg", "assets/faith/ritual-everyday.jpeg", "assets/faith/website-refresh.png", "assets/faith/notes-for-tomorrow.jpg", "assets/faith/skincare-editorial.jpg", 	"assets/faith/faith-seated.jpg"],
     faithLogo: "assets/faith/faith-logo.png",
     faithPortrait: "assets/faith/faith-portrait.jpg"
   },
